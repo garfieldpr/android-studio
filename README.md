@@ -5,8 +5,8 @@ Docker Container for Android Studio
 To start container execute: 
 
 docker run -it \
-  --net host \
-  -v /tmp/.X11-unix:/tmp/.X11-unix \
-  -e DISPLAY=unix$DISPLAY \
-  --name android-studio
-  elko/android-studio
+  <br>--net host \
+  <br>-v /tmp/.X11-unix:/tmp/.X11-unix \
+  <br>-e DISPLAY=unix$DISPLAY \
+  <br>--name android-studio
+  <br>elko/android-studio
